@@ -144,3 +144,7 @@ class Preprocessing:
         print("================================")
 
         return (row_count, col_count), self.df.info()
+
+    # count values for a given column
+    def get_count(self, column_name):
+        return pd.DataFrame(self.df[column_name].value_counts())
