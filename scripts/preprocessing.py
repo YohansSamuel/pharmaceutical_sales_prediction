@@ -102,3 +102,12 @@ class Preprocessing:
         except Exception:
             self.logger.exception('Failed to convert column to Datetime')
             sys.exit(1)
+
+    def join_dataframes(self, df1, df2, on, how="inner"):
+        """Join two dataframes."""
+        try:
+            self.logger.info('Joining two Dataframes')
+            return pd.merge(df1, df2, on=on)
+        except Exception:
+            self.logger.exception('joining dataframes failed')
+            sys.exit(1)
