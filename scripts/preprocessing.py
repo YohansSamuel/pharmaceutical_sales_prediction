@@ -77,7 +77,22 @@ class Preprocessing:
         missing_count = df[col_name].isnull().sum()
 
         return round((missing_count / total_count) * 100, 2)
-
+        
+    # get missing data percentage for every column
+    def get_missing_data_percentage(self, df):
+        
+        try:
+            self.logger.info('Getting Missing Data Percentage')
+            total = df.isnull().sum().sort_values(ascending=False)
+            percent_1 = total/df.isnull().count()*100
+            percent_2 = (round(percent_1, 1)).sort_values(ascending=False)
+            missing_data = pd.concat(
+                [total, percent_2], axis=1, keys=['Total', '%'])
+            return missing_data
+        except Exception:
+            self.logger.exception('Failed to Get Missing Data Percentage')
+            sys.exit(1)
+    
     # get the numerical columns
     def get_numerical_columns(self, df):
         """Get numerical columns from dataframe."""
