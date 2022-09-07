@@ -38,12 +38,22 @@ class Preprocessing:
 
         return df
 
-    def get_data_from_remote(tag, path='data/train.csv', repo='https://github.com/YohansSamuel/pharmaceutical_sales_prediction'):
+    def get_data_from_remote(tag, path='../data/train.csv', repo='https://github.com/YohansSamuel/pharmaceutical_sales_prediction'):
         rev = tag
         data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
         df = pd.read_csv(data_url)
         app_logger.info(f"Read data from {path}, version {tag}")
 
         return df
+    
+    def save_model(self, file_name, model):
+        with open(f"../models/{file_name}.pkl", "wb") as f:
+            self.logger.info(f"Model dumped to {file_name}.pkl")
+            pickle.dump(model, f)
+
+    def read_model(self, file_name):
+        with open(f"../models/{file_name}.pkl", "rb") as f:
+            self.logger.info(f"Model loaded from {file_name}.pkl")
+            return pickle.load(f)
 
     
