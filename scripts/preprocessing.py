@@ -38,4 +38,12 @@ class Preprocessing:
 
         return df
 
+    def get_data_from_remote(tag, path='data/train.csv', repo='https://github.com/YohansSamuel/pharmaceutical_sales_prediction'):
+        rev = tag
+        data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
+        df = pd.read_csv(data_url)
+        app_logger.info(f"Read data from {path}, version {tag}")
+
+        return df
+
     
