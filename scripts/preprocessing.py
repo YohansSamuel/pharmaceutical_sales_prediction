@@ -136,15 +136,15 @@ class Preprocessing:
             sys.exit(1)
 
     # returning the number of rows columns and column information
-    def get_info(self):
-        row_count, col_count = self.df.shape
+    def get_info(self,df):
+        row_count, col_count = df.shape
     
         print(f"Number of rows: {row_count}")
         print(f"Number of columns: {col_count}")
         print("================================")
 
-        return (row_count, col_count), self.df.info()
+        return (row_count, col_count), df.info()
 
     # count values for a given column
-    def get_count(self, column_name):
-        return pd.DataFrame(self.df[column_name].value_counts())
+    def get_count(self, df,column_name):
+        return pd.DataFrame(df[column_name].value_counts())
