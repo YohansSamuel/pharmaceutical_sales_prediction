@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from logger import Logger
 import sys
 from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
@@ -70,3 +71,14 @@ class Preprocessing:
         missing_count = df[col_name].isnull().sum()
 
         return round((missing_count / total_count) * 100, 2)
+
+    def get_numerical_columns(self, df):
+        """Get numerical columns from dataframe."""
+        try:
+            self.logger.info('Getting Numerical Columns from Dataframe')
+            num_col = df.select_dtypes(
+                exclude="object").columns.tolist()
+            return num_col
+        except Exception:
+            self.logger.error(f"fetchig numerical columns failed")
+            sys.exit(1)
