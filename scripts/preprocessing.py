@@ -63,3 +63,10 @@ class Preprocessing:
         totalMissing = missingCount.sum()
         return round((totalMissing / totalCells) * 100, 2)
     
+    def percent_missing_for_col(self, df: pd.DataFrame, col_name: str) -> float:
+        total_count = len(df[col_name])
+        if total_count <= 0:
+            return 0.0
+        missing_count = df[col_name].isnull().sum()
+
+        return round((missing_count / total_count) * 100, 2)
