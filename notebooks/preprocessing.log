@@ -543,3 +543,39 @@ ValueError: to assemble mappings requires at least that [year, month, day] be sp
 2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
 2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
 2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 20:35:14,576 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 20:35:14,576 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 20:35:14,619 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 20:35:14,619 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 20:35:14,684 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 20:35:14,684 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 20:35:17,869 : INFO : logger : Converting column to Datetime
+2022-09-07 20:35:17,869 : INFO : logger : Converting column to Datetime
+2022-09-07 20:35:18,070 : INFO : logger : Converting column to Datetime
+2022-09-07 20:35:18,070 : INFO : logger : Converting column to Datetime
+2022-09-07 20:35:18,148 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 20:35:18,148 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 20:35:23,665 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 20:35:23,665 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 20:35:27,059 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:27,059 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:29,051 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:29,051 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:30,065 : INFO : logger : Filling Missing Data with Median
+2022-09-07 20:35:30,065 : INFO : logger : Filling Missing Data with Median
+2022-09-07 20:35:30,232 : INFO : logger : Filling Missing Data with Median
+2022-09-07 20:35:30,232 : INFO : logger : Filling Missing Data with Median
+2022-09-07 20:35:30,294 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 20:35:30,294 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 20:35:30,507 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 20:35:30,507 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 20:35:30,676 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 20:35:30,676 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 20:35:30,871 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:30,871 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:32,811 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:35:32,811 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 20:36:06,865 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 20:36:06,865 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 20:36:08,362 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 20:36:08,362 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
