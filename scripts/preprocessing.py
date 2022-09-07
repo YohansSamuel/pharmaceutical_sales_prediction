@@ -92,3 +92,13 @@ class Preprocessing:
         except Exception:
             self.logger.exception('fetchig categorical columns failed')
             sys.exit(1)
+
+    def convert_to_datetime(self, df, column):
+        """Convert column to datetime."""
+        try:
+            self.logger.info('Converting column to Datetime')
+            df[column] = pd.to_datetime(df[column])
+            return df
+        except Exception:
+            self.logger.exception('Failed to convert column to Datetime')
+            sys.exit(1)
