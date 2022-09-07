@@ -48,3 +48,62 @@
 2022-09-07 13:24:51,720 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
 2022-09-07 13:24:52,591 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
 2022-09-07 13:24:52,591 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:42:34,003 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:42:34,003 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:42:34,013 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:42:34,013 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:42:34,059 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:42:34,059 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:06,203 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:06,203 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:06,203 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:06,213 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:06,213 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:06,213 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:06,255 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:06,255 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:06,255 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:21,266 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:46:21,266 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:46:21,266 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:46:21,835 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:46:21,835 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:46:21,835 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:46:55,518 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:55,518 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:55,518 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:55,518 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 13:46:55,524 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:55,524 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:55,524 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:55,524 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 13:46:55,565 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:55,565 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:55,565 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:46:55,565 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 13:47:09,355 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:47:09,355 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:47:09,355 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:47:09,355 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 13:47:09,894 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:47:09,894 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:47:09,894 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 13:47:09,894 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 14:50:10,315 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 14:50:10,315 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 14:50:10,324 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 14:50:10,324 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 14:50:10,378 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 14:50:10,378 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 14:50:15,969 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 14:50:15,969 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 14:50:32,086 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 14:50:32,086 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 14:50:32,732 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 14:50:32,732 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 15:05:25,308 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 15:05:25,308 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 15:05:44,391 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 15:05:44,391 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 15:08:35,228 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 15:08:35,228 : INFO : logger : Getting Missing Data Percentage
