@@ -12,12 +12,13 @@ app_logger = Logger("preprocessing.log").get_app_logger()
 class Preprocessing:
     def __init__(self) -> None:
         try:
-            pass
+            self.logger = Logger("preprocessing.log").get_app_logger()
         except Exception:
             sys.exit(1)
 
+    # open and read csv files given the path to the file
     def read_csv(self,csv_path,missing_values=[]) -> pd.DataFrame:
-        # open and read csv files given the path to the file
+        
         try:
             df = pd.read_csv(csv_path, na_values=missing_values)
             print("file read as csv")
@@ -27,6 +28,7 @@ class Preprocessing:
             print("file not found")
             self.logger.error(f"file not found, path:{csv_path}")
 
+     # save the csv file into the given path
     def save_csv(self, df, csv_path):
         try:
             df.to_csv(csv_path, index=False)
@@ -38,7 +40,8 @@ class Preprocessing:
             self.logger.error(f"saving failed")
 
         return df
-
+     
+     # retrieve data from the remote path given the data version(tag)
     def get_data_from_remote(tag, path='../data/train.csv', repo='https://github.com/YohansSamuel/pharmaceutical_sales_prediction'):
         rev = tag
         data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
@@ -47,23 +50,26 @@ class Preprocessing:
 
         return df
     
+    # save a trained model in the given path
     def save_model(self, file_name, model):
         with open(f"../models/{file_name}.pkl", "wb") as f:
             self.logger.info(f"Model dumped to {file_name}.pkl")
             pickle.dump(model, f)
-
+    
+    # read a trained model from the given path
     def read_model(self, file_name):
         with open(f"../models/{file_name}.pkl", "rb") as f:
             self.logger.info(f"Model loaded from {file_name}.pkl")
             return pickle.load(f)
     
+     # display a missing value of each column in percentage
     def percent_missing(self, df: pd.DataFrame) -> float:
-
         totalCells = np.product(df.shape)
         missingCount = df.isnull().sum()
         totalMissing = missingCount.sum()
         return round((totalMissing / totalCells) * 100, 2)
     
+    # display a missing value of a given column in percentage
     def percent_missing_for_col(self, df: pd.DataFrame, col_name: str) -> float:
         total_count = len(df[col_name])
         if total_count <= 0:
@@ -72,6 +78,7 @@ class Preprocessing:
 
         return round((missing_count / total_count) * 100, 2)
 
+    # get the numerical columns
     def get_numerical_columns(self, df):
         """Get numerical columns from dataframe."""
         try:
@@ -82,7 +89,7 @@ class Preprocessing:
         except Exception:
             self.logger.error(f"fetchig numerical columns failed")
             sys.exit(1)
-
+    # get the categorical columns
     def get_categorical_columns(self, df):
         """Get categorical columns from dataframe."""
         try:
@@ -92,7 +99,7 @@ class Preprocessing:
         except Exception:
             self.logger.exception('fetchig categorical columns failed')
             sys.exit(1)
-
+    # convert a given column datatype into a datetime
     def convert_to_datetime(self, df, column):
         """Convert column to datetime."""
         try:
@@ -102,7 +109,7 @@ class Preprocessing:
         except Exception:
             self.logger.exception('Failed to convert column to Datetime')
             sys.exit(1)
-
+    # join two given dataframes
     def join_dataframes(self, df1, df2, on, how="inner"):
         """Join two dataframes."""
         try:
