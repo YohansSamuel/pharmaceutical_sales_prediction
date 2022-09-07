@@ -107,3 +107,185 @@
 2022-09-07 15:05:44,391 : INFO : logger : Getting Missing Data Percentage
 2022-09-07 15:08:35,228 : INFO : logger : Getting Missing Data Percentage
 2022-09-07 15:08:35,228 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:41:39,264 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 17:41:39,264 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 17:41:39,367 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 17:41:39,367 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 17:41:39,871 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 17:41:39,871 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 17:41:48,316 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:41:48,316 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:41:50,499 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:41:50,499 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:41:52,507 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:41:52,507 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:41:52,666 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:41:52,666 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:41:52,752 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:41:52,752 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:41:52,753 : ERROR : logger : Failed to Fill Missing Data with Mode
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PromoInterval'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 194, in fill_missing_mode
+    df[col] = df[col].fillna(df[col].mode()[0])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PromoInterval'
+2022-09-07 17:41:52,753 : ERROR : logger : Failed to Fill Missing Data with Mode
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'PromoInterval'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 194, in fill_missing_mode
+    df[col] = df[col].fillna(df[col].mode()[0])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'PromoInterval'
+2022-09-07 17:45:30,762 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:45:30,762 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:45:31,004 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:45:31,004 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:45:41,134 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:45:41,134 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:45:43,367 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:45:43,367 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:26,073 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 17:47:26,073 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 17:47:26,073 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 17:47:26,184 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 17:47:26,184 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 17:47:26,184 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 17:47:26,353 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 17:47:26,353 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 17:47:26,353 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 17:47:31,999 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:31,999 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:31,999 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:34,055 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:34,055 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:34,055 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:35,629 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:47:35,629 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:47:35,629 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:47:35,792 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:47:35,792 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:47:35,792 : INFO : logger : Filling Missing Data with Median
+2022-09-07 17:47:35,878 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:47:35,878 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:47:35,878 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:47:36,109 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:47:36,109 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:47:36,109 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 17:47:36,234 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 17:47:36,234 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 17:47:36,234 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 17:47:36,549 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:36,549 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:36,549 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:38,706 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:38,706 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:38,706 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 17:47:49,565 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 17:47:49,565 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 17:47:49,565 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 17:47:50,234 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 17:47:50,234 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 17:47:50,234 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 18:48:45,511 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 18:48:45,511 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 18:48:45,772 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 18:48:45,772 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 18:48:46,026 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 18:48:46,026 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 18:48:53,146 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:48:53,146 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:48:55,878 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:48:55,878 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:48:57,300 : INFO : logger : Filling Missing Data with Median
+2022-09-07 18:48:57,300 : INFO : logger : Filling Missing Data with Median
+2022-09-07 18:48:57,463 : INFO : logger : Filling Missing Data with Median
+2022-09-07 18:48:57,463 : INFO : logger : Filling Missing Data with Median
+2022-09-07 18:48:57,798 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 18:48:57,798 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 18:48:58,060 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 18:48:58,060 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 18:48:58,172 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 18:48:58,172 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 18:48:58,352 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:48:58,352 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:49:00,816 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 18:49:00,816 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:23,793 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:00:23,793 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:00:23,806 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:00:23,806 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:00:23,869 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:00:23,869 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:00:30,179 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:30,179 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:32,844 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:32,844 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:34,681 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:00:34,681 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:00:34,852 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:00:34,852 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:00:34,914 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:00:34,914 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:00:35,144 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:00:35,144 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:00:35,211 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:00:35,211 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:00:35,337 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:35,337 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:37,546 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:00:37,546 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:43,774 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:03:43,774 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:03:43,784 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:03:43,784 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:03:43,973 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:03:43,973 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:03:50,336 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:50,336 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:52,934 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:52,934 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:54,368 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:03:54,368 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:03:54,570 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:03:54,570 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:03:55,660 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:03:55,660 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:03:55,951 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:03:55,951 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:03:56,014 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:03:56,014 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:03:56,119 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:56,119 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:58,498 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:03:58,498 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:04:11,663 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:04:11,663 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:04:12,347 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:04:12,347 : INFO : logger : File Successfully Saved to ../data/joined_test.csv

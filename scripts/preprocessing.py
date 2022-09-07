@@ -197,23 +197,96 @@ class Preprocessing:
             self.logger.exception('Failed to Fill Missing Data with Mode')
             sys.exit(1)
     # replace outliers with interquantilerange
-    def replace_outliers_iqr(self, df, columns):
-        """Replace outlier data with IQR."""
-        try:
-            # self.logger.info('Replacing Outlier Data with IQR')
-            for col in columns:
-                Q1, Q3 = df[col].quantile(
-                    0.25), df[col].quantile(0.75)
-                IQR = Q3 - Q1
-                cut_off = IQR * 1.5
-                lower, upper = Q1 - cut_off, Q3 + cut_off
+    # def replace_outliers_iqr(self, df, columns):
+    #     """Replace outlier data with IQR."""
+    #     try:
+    #         self.logger.info('Replacing Outlier Data with IQR')
+    #         for col in columns:
+    #             Q1, Q3 = df[col].quantile(
+    #                 0.25), df[col].quantile(0.75)
+    #             IQR = Q3 - Q1
+    #             cut_off = IQR * 1.5
+    #             lower, upper = Q1 - cut_off, Q3 + cut_off
 
-                df[col] = np.where(
-                    df[col] > upper, upper, df[col])
-                df[col] = np.where(
-                    df[col] < lower, lower, df[col])
-            return df
-        except Exception:
-            # self.logger.exception(
-            #     'Failed to Replace Outlier Data with IQR')
-            sys.exit(1)
+    #             df[col] = np.where(
+    #                 df[col] > upper, upper, df[col])
+    #             df[col] = np.where(
+    #                 df[col] < lower, lower, df[col])
+    #         return df
+    #     except Exception:
+    #         self.logger.exception('Failed to Replace Outlier Data with IQR')
+    #         sys.exit(1)
+
+    # count outliers
+    def count_outliers(self,df, Q1, Q3, IQR):
+        cut_off = IQR * 1.5
+        temp_df = (df < (Q1 - cut_off)) | (df > (Q3 + cut_off))
+        return [len(temp_df[temp_df[col] == True]) for col in temp_df]
+    # calcualte skewness
+    def calc_skew(self,df):
+        return [df[col].skew() for col in df]
+
+    def percentage(self,df, list):
+        return [str(round(((value / df.shape[0]) * 100), 2)) + '%' for value in list]
+    # remote outliers for the given columns
+    def remove_outliers(self,df, columns):
+        for col in columns:
+            Q1, Q3 = df[col].quantile(0.25), df[col].quantile(0.75)
+            IQR = Q3 - Q1
+            cut_off = IQR * 1.5
+            lower, upper = Q1 - cut_off, Q3 + cut_off
+            df = df.drop(df[df[col] > upper].index)
+            df = df.drop(df[df[col] < lower].index)
+    # replace outliers with interquartile range
+    def replace_outliers_with_iqr(self,df, columns):
+        for col in columns:
+            Q1, Q3 = df[col].quantile(0.25), df[col].quantile(0.75)
+            IQR = Q3 - Q1
+            cut_off = IQR * 1.5
+            lower, upper = Q1 - cut_off, Q3 + cut_off
+
+            df[col] = np.where(df[col] > upper, upper, df[col])
+            df[col] = np.where(df[col] < lower, lower, df[col])
+    # replace outliers with mean
+    def replace_outliers_with_mean(self,df, columns):
+        for col in columns:
+            Q1, Q3 = df[col].quantile(0.25), df[col].quantile(0.75)
+            IQR = Q3 - Q1
+            cut_off = IQR * 1.5
+            lower, upper = Q1 - cut_off, Q3 + cut_off
+
+            df[col] = np.where(df[col] > upper, upper, df[col])
+            df[col] = np.where(df[col] < lower, lower, df[col])
+
+    def getOverview(self,df) -> None:
+
+        _labels = [column for column in df]
+        Q1 = df.quantile(0.25)
+        _median = df.quantile(0.5)
+        Q3 = df.quantile(0.75)
+        IQR = Q3 - Q1
+        _skew = self.calc_skew(df)
+        _outliers = self.count_outliers(df,Q1, Q3, IQR)
+
+        columns = [
+        'label',
+        'number_of_outliers',
+        'percentage_of_outliers',
+        'skew',
+        'Q1',
+        'Median',
+        'Q3'
+        ]
+        data = zip(
+        _labels,
+        _outliers,
+        self.percentage(df,_outliers),
+        _skew,
+        Q1,
+        _median,
+        Q3,
+        )
+        new_df = pd.DataFrame(data=data, columns=columns)
+        new_df.set_index('label', inplace=True)
+        new_df.sort_values(by=["number_of_outliers"], inplace=True)
+        return new_df
