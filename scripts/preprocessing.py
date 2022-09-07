@@ -166,18 +166,25 @@ class Preprocessing:
 
     # fill missing value with median
     def fill_missing_median(self, df, columns):
-        """Fill missing data with median."""
         try:
-            # self.logger.info('Filling Missing Data with Median')
+            self.logger.info('Filling Missing Data with Median')
             for col in columns:
                 df[col] = df[col].fillna(df[col].median())
             return df
         except Exception:
-            # self.logger.exception(
-            #     'Failed to Fill Missing Data with Median')
+            self.logger.exception('Failed to Fill Missing Data with Median')
             sys.exit(1)
 
-        # fill missing value with median
-        # fill missing value with median
-        # fill missing value with median
-        # fill missing value with median
+    # fill missing value with median
+    def fill_missing_with_zero(self, df, columns):
+        try:
+            self.logger.info('Filling Missing Data with Zero')
+            for col in columns:
+                df[col] = df[col].fillna(0)
+            return df
+        except Exception:
+            self.logger.exception('Failed to Fill Missing Data with Zero')
+            sys.exit(1)
+    # fill missing value with median
+    # fill missing value with median
+    # fill missing value with median
