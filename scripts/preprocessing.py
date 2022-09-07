@@ -163,3 +163,21 @@ class Preprocessing:
     # count values for a given column
     def get_count(self, df,column_name):
         return pd.DataFrame(df[column_name].value_counts())
+
+    # fill missing value with median
+    def fill_missing_median(self, df, columns):
+        """Fill missing data with median."""
+        try:
+            # self.logger.info('Filling Missing Data with Median')
+            for col in columns:
+                df[col] = df[col].fillna(df[col].median())
+            return df
+        except Exception:
+            # self.logger.exception(
+            #     'Failed to Fill Missing Data with Median')
+            sys.exit(1)
+
+        # fill missing value with median
+        # fill missing value with median
+        # fill missing value with median
+        # fill missing value with median
