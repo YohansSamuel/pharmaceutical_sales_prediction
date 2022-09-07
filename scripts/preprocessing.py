@@ -118,3 +118,19 @@ class Preprocessing:
         except Exception:
             self.logger.exception('joining dataframes failed')
             sys.exit(1)
+
+    # extract the required fields from the timestamp column
+    def extract_fields_date(self, df, date_column):
+        try:
+            self.logger.info('Extracting Fields from Date Column')
+            df['Year'] = df[date_column].dt.year
+            df['Month'] = df[date_column].dt.month
+            df['Day'] = df[date_column].dt.day
+            df['DayOfWeek'] = df[date_column].dt.dayofweek
+            df['weekday'] = df[date_column].dt.weekday
+            df['weekofyear'] = df[date_column].dt.weekofyear
+            df['weekend'] = df[date_column].apply(self.is_weekend)
+            return df
+        except Exception:
+            self.logger.exception('Failed to Extract Fields from Date Column')
+            sys.exit(1)
