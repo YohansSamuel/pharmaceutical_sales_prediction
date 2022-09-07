@@ -55,5 +55,11 @@ class Preprocessing:
         with open(f"../models/{file_name}.pkl", "rb") as f:
             self.logger.info(f"Model loaded from {file_name}.pkl")
             return pickle.load(f)
+    
+    def percent_missing(self, df: pd.DataFrame) -> float:
 
+        totalCells = np.product(df.shape)
+        missingCount = df.isnull().sum()
+        totalMissing = missingCount.sum()
+        return round((totalMissing / totalCells) * 100, 2)
     
