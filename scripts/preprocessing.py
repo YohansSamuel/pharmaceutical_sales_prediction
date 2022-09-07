@@ -185,6 +185,16 @@ class Preprocessing:
         except Exception:
             self.logger.exception('Failed to Fill Missing Data with Zero')
             sys.exit(1)
+    
     # fill missing value with median
+    def fill_missing_mode(self, df, columns):
+        try:
+            self.logger.info('Filling Missing Data with Mode')
+            for col in columns:
+                df[col] = df[col].fillna(df[col].mode()[0])
+            return df
+        except Exception:
+            self.logger.exception('Failed to Fill Missing Data with Mode')
+            sys.exit(1)
     # fill missing value with median
     # fill missing value with median
