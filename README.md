@@ -26,9 +26,9 @@ The data used for this project could be foun in [Rossman Pharmaceuticals Sales D
  Structure of the repository:
  
         ├── models  (contains trained model)
-        ├── .github  (github workflows for CI/CD, CML)
-        ├── screenshots  (model versioning screenshots)
-        ├── data    (contains data versioning metedata)
+        ├── .github (github workflows for CI/CD, CML)
+        ├── screenshots (model versioning screenshots)
+        ├── data  (contains data versioning metedata)
         ├── scripts (contains the main script)	
         │   ├── logger.py (logger for the project)
         │   ├── plot.py (handles plots)
@@ -45,7 +45,7 @@ The data used for this project could be foun in [Rossman Pharmaceuticals Sales D
 
 
 ## Contrbutor(s)
-- Yohans Samuel
+- [Yohans Samuel](https://www.linkedin.com/in/yohanssamuel/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
