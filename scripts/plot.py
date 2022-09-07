@@ -276,10 +276,10 @@ class Plot:
         plt.legend()
         plt.savefig(path)
 
-    def plot_distributions(self):
+    def plot_distributions(self,df):
         """
         - this algorithm is responsible for plotting distributions
         """
-        num_feats = list(self.df.select_dtypes(include=['int64', 'float64', 'int32']).columns)
-        self.df[num_feats].hist(figsize=(20,15))
+        num_feats = list(df.select_dtypes(include=['int64', 'float64', 'int32']).columns)
+        df[num_feats].hist(figsize=(20,15))
         self.logger.info("Successfully plotted distributions in the histogram formats")
