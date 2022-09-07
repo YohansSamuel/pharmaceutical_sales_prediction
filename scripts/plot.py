@@ -7,20 +7,17 @@ import pandas as pd
 import seaborn as sns
 # from logger import Logger
 from pandas.plotting import scatter_matrix
-# from pandas_profiling import ProfileReport
+from logger import Logger
 
+app_logger = Logger("preprocessing.log").get_app_logger()
 
 class Plot:
     def __init__(self) -> None:
         """Initilize class."""
         try:
-            pass
-            # self.logger = Logger("plot.log").get_app_logger()
-            # self.logger.info(
-            #     'Successfully Instantiated Preprocessing Class Object')
+            self.logger = Logger("preprocessing.log").get_app_logger()
         except Exception:
-            # self.logger.exception(
-            #     'Failed to Instantiate Preprocessing Class Object')
+            self.logger.exception('Failed to Instantiate Preprocessing Class Object')
             sys.exit(1)
 
     def plot_profile(self, df: pd.DataFrame, title: str) -> None:
@@ -48,8 +45,7 @@ class Plot:
         sns.displot(data=df, x=column, color=color,
                     kde=True, height=7, aspect=2)
         plt.title(f'Distribution of {column}', size=20, fontweight='bold')
-        # self.logger.info(
-        #     'Plotting a histogram')
+        self.logger.info('Plotting a histogram')
         plt.show()
 
     def plot_count(self, df: pd.DataFrame, column: str) -> None:
@@ -59,8 +55,7 @@ class Plot:
             column(str): column to be plotted.
         """
         plt.figure(figsize=(12, 7))
-        # self.logger.info(
-        #     'Plotting a plot_count')
+        self.logger.info('Plotting a plot_count')
         sns.countplot(df, hue=column)
         plt.title(f'Distribution of {column}', size=20, fontweight='bold')
         plt.show()
@@ -78,8 +73,7 @@ class Plot:
         plt.yticks(fontsize=14)
         plt.xlabel(xlabel, fontsize=16)
         plt.ylabel(ylabel, fontsize=16)
-        # self.logger.info(
-        #     'Plotting a bar chart')
+        self.logger.info('Plotting a bar chart')
         plt.show()
 
     def plot_heatmap(self, df: pd.DataFrame, title: str, cbar=False) -> None:
@@ -93,8 +87,7 @@ class Plot:
         sns.heatmap(df, annot=True, cmap='viridis', vmin=0,
                     vmax=1, fmt='.2f', linewidths=.7, cbar=cbar)
         plt.title(title, size=18, fontweight='bold')
-        # self.logger.info(
-        #     'Plotting a heatmap for the dataset: ')
+        self.logger.info('Plotting a heatmap for the dataset: ')
         plt.show()
 
     def plot_box(self, df: pd.DataFrame, x_col: str, title: str) -> None:
@@ -108,8 +101,7 @@ class Plot:
         sns.boxplot(data=df, x=x_col)
         plt.title(title, size=20)
         plt.xticks(rotation=75, fontsize=14)
-        # self.logger.info(
-        #     'Plotting a box plot for Column: ', x_col)
+        self.logger.info('Plotting a box plot for Column: ', x_col)
         plt.show()
 
     def plot_box_multi(self, df: pd.DataFrame, x_col: str, y_col: str, title: str) -> None:
@@ -123,8 +115,7 @@ class Plot:
         plt.title(title, size=20)
         plt.xticks(rotation=75, fontsize=14)
         plt.yticks(fontsize=14)
-        # self.logger.info(
-        #     'Plotting a multiple box plot: ')
+        self.logger.info('Plotting a multiple box plot: ')
         plt.show()
 
     def plot_scatter(self, df: pd.DataFrame, x_col: str, y_col: str, title: str, hue: str, style: str) -> None:
@@ -138,8 +129,7 @@ class Plot:
         plt.title(title, size=20)
         plt.xticks(fontsize=14)
         plt.yticks(fontsize=14)
-        # self.logger.info(
-        #     'Plotting a scatter plot')
+        self.logger.info('Plotting a scatter plot')
         plt.show()
 
     def plot_pie(self, data, labels, title) -> None:
@@ -153,8 +143,7 @@ class Plot:
         colors = sns.color_palette('bright')
         plt.pie(data, labels=labels, colors=colors, autopct='%.0f%%')
         plt.title(title, size=20)
-        # self.logger.info(
-        #     'Plotting a pie chart')
+        self.logger.info('Plotting a pie chart')
         plt.show()
 
     # function to get the values in a plot
@@ -170,8 +159,7 @@ class Plot:
         plt.legend()
         plt.plot()
         plt.title(title, size=20)
-        # self.logger.info(
-        #     'Plotting multiple histogram')
+        self.logger.info('Plotting multiple histogram')
         plt.show()
 
     def get_value(self, figure):
@@ -179,8 +167,7 @@ class Plot:
         Args:
             figure(_type_): _description_
         """
-        # self.logger.info(
-        #     'Getting value for a plot')
+        self.logger.info('Getting value for a plot')
         for p in figure.patches:
             figure.annotate(format(p.get_height()), (p.get_x() + p.get_width() / 2.,
                                                      p.get_height()), ha='center', va='center',
@@ -203,8 +190,7 @@ class Plot:
         figure.set_title(title, size=size, weight=weight)
         figure.set_xlabel(titlex, size=sizexy, weight=weight)
         figure.set_ylabel(titley, size=sizexy, weight=weight)
-        # self.logger.info(
-        #     'set figure parameters')
+        self.logger.info('set figure parameters')
 
     # function to change rotation of the x axis tick labels
     def rotate(self, figure, rotation):
@@ -214,8 +200,7 @@ class Plot:
             rotation(_type_): rotation of x axis tick labels
         """
         # changing the rotation of the x axis tick labels
-        # self.logger.info(
-        #     'Plotting a chart')
+        self.logger.info('Plotting a chart')
         for item in figure.get_xticklabels():
             item.set_rotation(rotation)
 
@@ -228,8 +213,7 @@ class Plot:
         plt.figure(figsize=(12, 7))
         sns.pairplot(df)
         plt.title(title, size=20)
-        # self.logger.info(
-        #     'Plotting a scatter matrix')
+        self.logger.info('Plotting a scatter matrix')
         scatter_matrix(df, alpha=0.2, figsize=(12, 7), diagonal='kde')
         # plt.show()
 
@@ -246,8 +230,7 @@ class Plot:
         y.hist(ax=axes[1], alpha=0.3, color='blue', bins=20)
         axes[0].set_title(xtitle, size=20)
         axes[1].set_title(ytitle, size=20)
-        # self.logger.info(
-        #     'Plotting a subplots')
+        self.logger.info('Plotting a subplots')
         plt.show()
 
     def plot_hist_muli(self, df):
@@ -255,7 +238,7 @@ class Plot:
         sns.set()
         num_feats = list(df.select_dtypes(
             include=['int64', 'float64', 'int32']).columns)
-        # self.logger.info("Plotting multiple histogram")
+        self.logger.info("Plotting multiple histogram")
         df[num_feats].hist(figsize=(20, 15))
     
     def plot_feature_importance(self, importance, names, model_type, path):
@@ -292,3 +275,11 @@ class Plot:
         plt.plot(model.predict(x)[:40], color='red', label='Predicted')
         plt.legend()
         plt.savefig(path)
+
+    def plot_distributions(self):
+        """
+        - this algorithm is responsible for plotting distributions
+        """
+        num_feats = list(self.df.select_dtypes(include=['int64', 'float64', 'int32']).columns)
+        self.df[num_feats].hist(figsize=(20,15))
+        self.logger.info("Successfully plotted distributions in the histogram formats")
