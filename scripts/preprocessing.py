@@ -10,6 +10,9 @@ import io
 from sklearn.model_selection import cross_validate
 from sklearn.preprocessing import LabelEncoder
 
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 app_logger = Logger("preprocessing.log").get_app_logger()
 
 class Preprocessing:
@@ -326,3 +329,15 @@ class Preprocessing:
         # Merge all data frames
         label_encoded_columns = pd.concat(label_encoded_columns, axis=1)
         return label_encoded_columns
+
+    def correlation_map(f_data, f_feature, f_number):
+        f_most_correlated = f_data.corr().nlargest(f_number, f_feature)[f_feature].index
+        f_correlation = f_data[f_most_correlated].corr()
+
+        f_mask = np.zeros_like(f_correlation)
+        f_mask[np.tril_indices_from(f_mask)] = True
+        with sns.axes_style("white"):
+            f_fig, f_ax = plt.subplots(figsize=(12,7))
+            f_ax = sns.heatmap(f_correlation, mask=f_mask, vmin=0, vmax=0, square=True, annot=True, annot_kws={"size": 10}, cmap="BuPu")
+
+        plt.show()
