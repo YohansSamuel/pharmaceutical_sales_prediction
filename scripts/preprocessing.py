@@ -82,3 +82,13 @@ class Preprocessing:
         except Exception:
             self.logger.error(f"fetchig numerical columns failed")
             sys.exit(1)
+
+    def get_categorical_columns(self, df):
+        """Get categorical columns from dataframe."""
+        try:
+            self.logger.info('Getting Categorical Columns from Dataframe')
+            return df.select_dtypes(
+                include="object").columns.tolist()
+        except Exception:
+            self.logger.exception('fetchig categorical columns failed')
+            sys.exit(1)
