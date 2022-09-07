@@ -6,6 +6,7 @@ from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
 import pickle
 import dvc.api
 
+import io
 
 app_logger = Logger("preprocessing.log").get_app_logger()
 
@@ -41,13 +42,12 @@ class Preprocessing:
 
         return df
      
-     # retrieve data from the remote path given the data version(tag)
-    def get_data_from_remote(tag, path='../data/train.csv', repo='https://github.com/YohansSamuel/pharmaceutical_sales_prediction'):
+     # retrieve data from the remote path given the data version(tag) 
+    def get_data_from_dvc(tag, path='../data/train.csv', repo='../'):#https://github.com/YohansSamuel/pharmaceutical_sales_prediction
         rev = tag
-        data_url = dvc.api.get_url(path=path, repo=repo, rev=rev)
-        df = pd.read_csv(data_url)
+        data_url = dvc.api.read(path=path, repo=repo, rev=rev)
+        df = pd.read_csv(io.StringIO(data_url),sep=",")
         app_logger.info(f"Read data from {path}, version {tag}")
-
         return df
     
     # save a trained model in the given path
@@ -134,3 +134,13 @@ class Preprocessing:
         except Exception:
             self.logger.exception('Failed to Extract Fields from Date Column')
             sys.exit(1)
+
+    # returning the number of rows columns and column information
+    def get_info(self):
+        row_count, col_count = self.df.shape
+    
+        print(f"Number of rows: {row_count}")
+        print(f"Number of columns: {col_count}")
+        print("================================")
+
+        return (row_count, col_count), self.df.info()
