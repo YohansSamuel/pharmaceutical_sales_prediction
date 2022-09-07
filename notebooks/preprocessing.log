@@ -289,3 +289,76 @@ KeyError: 'PromoInterval'
 2022-09-07 19:04:11,663 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
 2022-09-07 19:04:12,347 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
 2022-09-07 19:04:12,347 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:17:22,561 : INFO : logger : Converting column to Datetime
+2022-09-07 19:17:22,561 : INFO : logger : Converting column to Datetime
+2022-09-07 19:17:22,908 : ERROR : logger : Failed to convert column to Datetime
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 122, in convert_to_datetime
+    df[column] = pd.to_datetime(df[column])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1054, in to_datetime
+    result = _assemble_from_unit_mappings(arg, errors, tz)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1160, in _assemble_from_unit_mappings
+    raise ValueError(
+ValueError: to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing
+2022-09-07 19:17:22,908 : ERROR : logger : Failed to convert column to Datetime
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 122, in convert_to_datetime
+    df[column] = pd.to_datetime(df[column])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1054, in to_datetime
+    result = _assemble_from_unit_mappings(arg, errors, tz)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1160, in _assemble_from_unit_mappings
+    raise ValueError(
+ValueError: to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing
+2022-09-07 19:18:46,510 : INFO : logger : Converting column to Datetime
+2022-09-07 19:18:46,510 : INFO : logger : Converting column to Datetime
+2022-09-07 19:18:46,545 : ERROR : logger : Failed to convert column to Datetime
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 122, in convert_to_datetime
+    df[column] = pd.to_datetime(df[column])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1054, in to_datetime
+    result = _assemble_from_unit_mappings(arg, errors, tz)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1160, in _assemble_from_unit_mappings
+    raise ValueError(
+ValueError: to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing
+2022-09-07 19:18:46,545 : ERROR : logger : Failed to convert column to Datetime
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 122, in convert_to_datetime
+    df[column] = pd.to_datetime(df[column])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1054, in to_datetime
+    result = _assemble_from_unit_mappings(arg, errors, tz)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1160, in _assemble_from_unit_mappings
+    raise ValueError(
+ValueError: to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing
+2022-09-07 19:29:26,362 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:29:26,362 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:29:26,362 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:29:26,403 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:29:26,403 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:29:26,403 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:29:26,462 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:29:26,462 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:29:26,462 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:29:29,260 : INFO : logger : Converting column to Datetime
+2022-09-07 19:29:29,260 : INFO : logger : Converting column to Datetime
+2022-09-07 19:29:29,260 : INFO : logger : Converting column to Datetime
+2022-09-07 19:29:29,446 : INFO : logger : Converting column to Datetime
+2022-09-07 19:29:29,446 : INFO : logger : Converting column to Datetime
+2022-09-07 19:29:29,446 : INFO : logger : Converting column to Datetime
+2022-09-07 19:29:29,522 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:29:29,522 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:29:29,522 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:29:31,372 : ERROR : logger : Failed to Extract Fields from Date Column
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 147, in extract_fields_date
+    sys.exit(1)
+AttributeError: 'Preprocessing' object has no attribute 'is_weekend'
+2022-09-07 19:29:31,372 : ERROR : logger : Failed to Extract Fields from Date Column
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 147, in extract_fields_date
+    sys.exit(1)
+AttributeError: 'Preprocessing' object has no attribute 'is_weekend'
+2022-09-07 19:29:31,372 : ERROR : logger : Failed to Extract Fields from Date Column
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 147, in extract_fields_date
+    sys.exit(1)
+AttributeError: 'Preprocessing' object has no attribute 'is_weekend'

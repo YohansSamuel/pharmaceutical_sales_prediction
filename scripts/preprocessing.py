@@ -95,7 +95,6 @@ class Preprocessing:
     
     # get the numerical columns
     def get_numerical_columns(self, df):
-        """Get numerical columns from dataframe."""
         try:
             self.logger.info('Getting Numerical Columns from Dataframe')
             num_col = df.select_dtypes(
@@ -106,7 +105,6 @@ class Preprocessing:
             sys.exit(1)
     # get the categorical columns
     def get_categorical_columns(self, df):
-        """Get categorical columns from dataframe."""
         try:
             self.logger.info('Getting Categorical Columns from Dataframe')
             return df.select_dtypes(
@@ -116,7 +114,6 @@ class Preprocessing:
             sys.exit(1)
     # convert a given column datatype into a datetime
     def convert_to_datetime(self, df, column):
-        """Convert column to datetime."""
         try:
             self.logger.info('Converting column to Datetime')
             df[column] = pd.to_datetime(df[column])
@@ -126,14 +123,22 @@ class Preprocessing:
             sys.exit(1)
     # join two given dataframes
     def join_dataframes(self, df1, df2, on, how="inner"):
-        """Join two dataframes."""
         try:
             self.logger.info('Joining two Dataframes')
             return pd.merge(df1, df2, on=on)
         except Exception:
             self.logger.exception('joining dataframes failed')
             sys.exit(1)
-
+     # check if it's weekend
+    def is_weekend(self, date):
+        """Check if it's weekend."""
+        try:
+            # self.logger.info('Checking if it\'s weekend')
+            return 1 if (date.weekday() > 4 or date.weekday() < 1) else 0
+        except Exception:
+            # self.logger.exception(
+            #     'Failed to Check if it\'s weekend')
+            sys.exit(1)
     # extract the required fields from the timestamp column
     def extract_fields_date(self, df, date_column):
         try:
