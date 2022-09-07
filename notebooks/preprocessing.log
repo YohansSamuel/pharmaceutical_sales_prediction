@@ -450,3 +450,96 @@ ValueError: to assemble mappings requires at least that [year, month, day] be sp
 2022-09-07 19:44:08,134 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
 2022-09-07 19:44:09,522 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
 2022-09-07 19:44:09,522 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:56:43,601 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:56:43,601 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:56:43,601 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:56:43,954 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:56:43,954 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:56:43,954 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:56:44,319 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:56:44,319 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:56:44,319 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:56:47,501 : INFO : logger : Converting column to Datetime
+2022-09-07 19:56:47,501 : INFO : logger : Converting column to Datetime
+2022-09-07 19:56:47,501 : INFO : logger : Converting column to Datetime
+2022-09-07 19:56:47,687 : INFO : logger : Converting column to Datetime
+2022-09-07 19:56:47,687 : INFO : logger : Converting column to Datetime
+2022-09-07 19:56:47,687 : INFO : logger : Converting column to Datetime
+2022-09-07 19:56:47,763 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:56:47,763 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:56:47,763 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:56:54,103 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:56:54,103 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:56:54,103 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:32,936 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:57:32,936 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:57:32,936 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:57:32,936 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:57:33,080 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:57:33,080 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:57:33,080 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:57:33,080 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:57:33,178 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:57:33,178 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:57:33,178 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:57:33,178 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:57:35,602 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,602 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,602 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,602 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,791 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,791 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,791 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,791 : INFO : logger : Converting column to Datetime
+2022-09-07 19:57:35,864 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:35,864 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:35,864 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:35,864 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:41,877 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:41,877 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:41,877 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:41,877 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:57:45,229 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:45,229 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:45,229 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:45,229 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:47,273 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:47,273 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:47,273 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:47,273 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:50,451 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,451 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,451 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,451 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,723 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,723 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,723 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,723 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:57:50,786 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:50,786 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:50,786 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:50,786 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:51,158 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:51,158 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:51,158 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:51,158 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:57:51,217 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:57:51,217 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:57:51,217 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:57:51,217 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:57:51,399 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:51,399 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:51,399 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:51,399 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:53,604 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:53,604 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:53,604 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:57:53,604 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:58:30,736 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:58:30,736 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:58:30,736 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:58:30,736 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:58:31,873 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
