@@ -362,3 +362,91 @@ Traceback (most recent call last):
   File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 147, in extract_fields_date
     sys.exit(1)
 AttributeError: 'Preprocessing' object has no attribute 'is_weekend'
+2022-09-07 19:33:35,025 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:33:35,025 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:33:35,033 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:33:35,033 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:33:35,078 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:33:35,078 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:33:38,276 : INFO : logger : Converting column to Datetime
+2022-09-07 19:33:38,276 : INFO : logger : Converting column to Datetime
+2022-09-07 19:33:38,504 : INFO : logger : Converting column to Datetime
+2022-09-07 19:33:38,504 : INFO : logger : Converting column to Datetime
+2022-09-07 19:33:38,538 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:33:38,538 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:33:45,468 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:33:45,468 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:33:49,608 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:49,608 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:52,124 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:52,124 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:52,880 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:33:52,880 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:33:53,038 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:33:53,038 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:33:53,083 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:33:53,083 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:33:53,285 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:33:53,285 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:33:53,428 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:33:53,428 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:33:53,626 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:53,626 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:55,701 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:33:55,701 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:34:00,556 : INFO : logger : Converting column to Datetime
+2022-09-07 19:34:00,556 : INFO : logger : Converting column to Datetime
+2022-09-07 19:34:00,643 : ERROR : logger : Failed to convert column to Datetime
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 119, in convert_to_datetime
+    df[column] = pd.to_datetime(df[column])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1054, in to_datetime
+    result = _assemble_from_unit_mappings(arg, errors, tz)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1160, in _assemble_from_unit_mappings
+    raise ValueError(
+ValueError: to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing
+2022-09-07 19:34:00,643 : ERROR : logger : Failed to convert column to Datetime
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 119, in convert_to_datetime
+    df[column] = pd.to_datetime(df[column])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1054, in to_datetime
+    result = _assemble_from_unit_mappings(arg, errors, tz)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1160, in _assemble_from_unit_mappings
+    raise ValueError(
+ValueError: to assemble mappings requires at least that [year, month, day] be specified: [day,month,year] is missing
+2022-09-07 19:43:14,298 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:43:14,298 : INFO : logger : file read as csv from ../data/train.csv
+2022-09-07 19:43:14,304 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:43:14,304 : INFO : logger : file read as csv from ../data/store.csv
+2022-09-07 19:43:14,351 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:43:14,351 : INFO : logger : file read as csv from ../data/test.csv
+2022-09-07 19:43:16,962 : INFO : logger : Converting column to Datetime
+2022-09-07 19:43:16,962 : INFO : logger : Converting column to Datetime
+2022-09-07 19:43:17,126 : INFO : logger : Converting column to Datetime
+2022-09-07 19:43:17,126 : INFO : logger : Converting column to Datetime
+2022-09-07 19:43:17,178 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:43:17,178 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:43:23,218 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:43:23,218 : INFO : logger : Extracting Fields from Date Column
+2022-09-07 19:43:27,135 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:27,135 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:29,440 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:29,440 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:30,283 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:43:30,283 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:43:30,456 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:43:30,456 : INFO : logger : Filling Missing Data with Median
+2022-09-07 19:43:30,524 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:43:30,524 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:43:30,733 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:43:30,733 : INFO : logger : Filling Missing Data with Mode
+2022-09-07 19:43:30,784 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:43:30,784 : INFO : logger : Filling Missing Data with Zero
+2022-09-07 19:43:30,960 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:30,960 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:33,193 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:43:33,193 : INFO : logger : Getting Missing Data Percentage
+2022-09-07 19:44:08,134 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:44:08,134 : INFO : logger : File Successfully Saved to ../data/joined_train.csv
+2022-09-07 19:44:09,522 : INFO : logger : File Successfully Saved to ../data/joined_test.csv
+2022-09-07 19:44:09,522 : INFO : logger : File Successfully Saved to ../data/joined_test.csv

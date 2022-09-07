@@ -7,6 +7,8 @@ import pickle
 import dvc.api
 
 import io
+from sklearn.model_selection import cross_validate
+from sklearn.preprocessing import LabelEncoder
 
 app_logger = Logger("preprocessing.log").get_app_logger()
 
@@ -295,3 +297,32 @@ class Preprocessing:
         new_df.set_index('label', inplace=True)
         new_df.sort_values(by=["number_of_outliers"], inplace=True)
         return new_df
+
+    def label_encode(self, df, columns):
+        """Label encode the target variable.
+        Parameters
+        ----------
+        df: Pandas Dataframe
+            This is the dataframe containing the features and target variable.
+        columns: list
+        Returns
+        -------
+        The function returns a dataframe with the target variable encoded.
+        """
+        # Label Encoding
+
+        label_encoded_columns = []
+        # For loop for each columns
+        for col in columns:
+            # We define new label encoder to each new column
+            le = LabelEncoder()
+            # Encode our data and create new Dataframe of it,
+            # notice that we gave column name in "columns" arguments
+            column_dataframe = pd.DataFrame(
+                le.fit_transform(df[col]), columns=[col])
+            # and add new DataFrame to "label_encoded_columns" list
+            label_encoded_columns.append(column_dataframe)
+
+        # Merge all data frames
+        label_encoded_columns = pd.concat(label_encoded_columns, axis=1)
+        return label_encoded_columns
