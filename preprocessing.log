@@ -1,0 +1,30 @@
+2022-09-07 23:50:48,756 : INFO : logger : Getting Categorical Columns from Dataframe
+2022-09-07 23:50:48,756 : INFO : logger : Getting Categorical Columns from Dataframe
+2022-09-07 23:50:48,757 : ERROR : logger : fetchig categorical columns failed
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 115, in get_categorical_columns
+    return df.select_dtypes(
+AttributeError: 'Preprocessing' object has no attribute 'select_dtypes'
+2022-09-07 23:50:48,757 : ERROR : logger : fetchig categorical columns failed
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 115, in get_categorical_columns
+    return df.select_dtypes(
+AttributeError: 'Preprocessing' object has no attribute 'select_dtypes'
+2022-09-07 23:52:49,574 : INFO : logger : Getting Categorical Columns from Dataframe
+2022-09-07 23:52:49,574 : INFO : logger : Getting Categorical Columns from Dataframe
+2022-09-07 23:52:49,574 : INFO : logger : Getting Categorical Columns from Dataframe
+2022-09-07 23:52:49,574 : ERROR : logger : fetchig categorical columns failed
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 115, in get_categorical_columns
+    return df.select_dtypes(
+AttributeError: 'Preprocessing' object has no attribute 'select_dtypes'
+2022-09-07 23:52:49,574 : ERROR : logger : fetchig categorical columns failed
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 115, in get_categorical_columns
+    return df.select_dtypes(
+AttributeError: 'Preprocessing' object has no attribute 'select_dtypes'
+2022-09-07 23:52:49,574 : ERROR : logger : fetchig categorical columns failed
+Traceback (most recent call last):
+  File "/home/yohans/Batch6_10Academy_Training/Week3/pharmaceutical_sales_prediction/scripts/preprocessing.py", line 115, in get_categorical_columns
+    return df.select_dtypes(
+AttributeError: 'Preprocessing' object has no attribute 'select_dtypes'
