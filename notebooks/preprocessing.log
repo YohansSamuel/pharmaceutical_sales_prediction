@@ -847,3 +847,117 @@ ValueError: to assemble mappings requires at least that [year, month, day] be sp
 2022-09-08 20:00:05,252 : INFO : logger : File Successfully Saved to ../data/cleaned_test.csv
 2022-09-08 20:00:05,252 : INFO : logger : File Successfully Saved to ../data/cleaned_test.csv
 2022-09-08 20:00:05,252 : INFO : logger : File Successfully Saved to ../data/cleaned_test.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:05,901 : ERROR : logger : file not found, path:data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:32:34,678 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:38:59,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:41:39,446 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:51:11,861 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
