@@ -88,6 +88,11 @@ def sales_prediction_ml():
     else:
         st.write("You selected Public Holiday.")
 
+    if st.button('Predict'):
+     st.write('The prediction goes here')
+
+    st.write('The predicted sales is: $')
+
 def sales_prediction_dl():
     st.title("Sales Prediction using Deep Learning(LSTM)")
     
