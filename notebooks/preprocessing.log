@@ -961,3 +961,1948 @@ ValueError: to assemble mappings requires at least that [year, month, day] be sp
 2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
 2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
 2022-09-08 22:52:45,158 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-09 13:33:04,335 : INFO : logger : DVC: CSV file read with path: ../data/cleaned_train.csv | version: cleaned-v | from: ../
+2022-09-09 13:39:01,741 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-09 13:39:01,741 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-09 13:39:01,741 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-09 13:39:01,741 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 11:33:03,683 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 11:33:03,683 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 11:33:03,683 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 11:33:03,683 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,467 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,467 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,467 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,467 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,467 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,467 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 12:34:20,631 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 12:34:20,631 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 12:34:20,631 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 12:34:20,631 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 12:34:20,631 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 12:34:20,631 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 12:34:20,631 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 12:34:20,631 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 12:34:20,631 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 12:34:20,631 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 12:34:20,631 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 12:34:20,631 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 12:34:21,179 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,179 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,179 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,179 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,179 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,179 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,815 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,815 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,815 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,815 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,815 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:21,815 : INFO : logger : dropped the column successfully
+2022-09-10 12:34:22,675 : INFO : logger : data splitted successfully
+2022-09-10 12:34:22,675 : INFO : logger : data splitted successfully
+2022-09-10 12:34:22,675 : INFO : logger : data splitted successfully
+2022-09-10 12:34:22,675 : INFO : logger : data splitted successfully
+2022-09-10 12:34:22,675 : INFO : logger : data splitted successfully
+2022-09-10 12:34:22,675 : INFO : logger : data splitted successfully
+2022-09-10 12:50:07,149 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 12:50:07,149 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 12:50:07,149 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 12:50:07,149 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 12:50:07,149 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 12:50:07,149 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 12:54:42,889 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11055/1750705574.py", line 2, in <cell line: 1>
+    rf_model.score(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/pipeline.py", line 711, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/base.py", line 705, in score
+    y_pred = self.predict(X)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    Parallel(
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 1046, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 861, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 779, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 216, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 640, in _accumulate_prediction
+    prediction = predict(X, check_input=False)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 468, in predict
+    proba = self.tree_.predict(X)
+KeyboardInterrupt
+2022-09-10 12:54:42,889 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11055/1750705574.py", line 2, in <cell line: 1>
+    rf_model.score(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/pipeline.py", line 711, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/base.py", line 705, in score
+    y_pred = self.predict(X)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    Parallel(
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 1046, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 861, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 779, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 216, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 640, in _accumulate_prediction
+    prediction = predict(X, check_input=False)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 468, in predict
+    proba = self.tree_.predict(X)
+KeyboardInterrupt
+2022-09-10 12:54:42,889 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11055/1750705574.py", line 2, in <cell line: 1>
+    rf_model.score(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/pipeline.py", line 711, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/base.py", line 705, in score
+    y_pred = self.predict(X)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    Parallel(
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 1046, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 861, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 779, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 216, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 640, in _accumulate_prediction
+    prediction = predict(X, check_input=False)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 468, in predict
+    proba = self.tree_.predict(X)
+KeyboardInterrupt
+2022-09-10 12:54:42,889 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11055/1750705574.py", line 2, in <cell line: 1>
+    rf_model.score(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/pipeline.py", line 711, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/base.py", line 705, in score
+    y_pred = self.predict(X)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    Parallel(
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 1046, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 861, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 779, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 216, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 640, in _accumulate_prediction
+    prediction = predict(X, check_input=False)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 468, in predict
+    proba = self.tree_.predict(X)
+KeyboardInterrupt
+2022-09-10 12:54:42,889 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11055/1750705574.py", line 2, in <cell line: 1>
+    rf_model.score(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/pipeline.py", line 711, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/base.py", line 705, in score
+    y_pred = self.predict(X)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    Parallel(
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 1046, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 861, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 779, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 216, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 640, in _accumulate_prediction
+    prediction = predict(X, check_input=False)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 468, in predict
+    proba = self.tree_.predict(X)
+KeyboardInterrupt
+2022-09-10 12:54:42,889 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_11055/1750705574.py", line 2, in <cell line: 1>
+    rf_model.score(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/pipeline.py", line 711, in score
+    return self.steps[-1][1].score(Xt, y, **score_params)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/base.py", line 705, in score
+    y_pred = self.predict(X)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    Parallel(
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 1046, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 861, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 779, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 572, in __init__
+    self.results = batch()
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in __call__
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/joblib/parallel.py", line 262, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/fixes.py", line 216, in __call__
+    return self.function(*args, **kwargs)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/ensemble/_forest.py", line 640, in _accumulate_prediction
+    prediction = predict(X, check_input=False)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/tree/_classes.py", line 468, in predict
+    proba = self.tree_.predict(X)
+KeyboardInterrupt
+2022-09-10 13:21:27,246 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:21:27,246 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:21:27,246 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:21:27,246 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:21:28,256 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:21:28,256 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:21:28,256 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:21:28,256 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:21:28,257 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:21:28,257 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:21:28,257 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:21:28,257 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:21:28,796 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:28,796 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:28,796 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:28,796 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:29,342 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:29,342 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:29,342 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:29,342 : INFO : logger : dropped the column successfully
+2022-09-10 13:21:29,425 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:21:29,425 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:21:29,425 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:21:29,425 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:21:30,879 : INFO : logger : data splitted successfully
+2022-09-10 13:21:30,879 : INFO : logger : data splitted successfully
+2022-09-10 13:21:30,879 : INFO : logger : data splitted successfully
+2022-09-10 13:21:30,879 : INFO : logger : data splitted successfully
+2022-09-10 13:30:33,050 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:30:33,050 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:30:33,050 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:30:33,050 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:30:33,050 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:30:33,050 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:30:33,167 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:30:33,167 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:30:33,167 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:30:33,167 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:30:33,167 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:30:33,167 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:30:33,168 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:30:33,168 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:30:33,168 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:30:33,168 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:30:33,168 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:30:33,168 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:30:33,522 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,522 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,522 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,522 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,522 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,522 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,841 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,841 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,841 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,841 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,841 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,841 : INFO : logger : dropped the column successfully
+2022-09-10 13:30:33,894 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:30:33,894 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:30:33,894 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:30:33,894 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:30:33,894 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:30:33,894 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,339 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,521 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,523 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:25,855 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,213 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:26,290 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,737 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,870 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:52,872 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,182 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,507 : INFO : logger : dropped the column successfully
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:31:53,583 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,023 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,226 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,228 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:54,789 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,908 : INFO : logger : dropped the column successfully
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:55,995 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 13:44:58,136 : INFO : logger : data splitted successfully
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:00:45,348 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:01:02,851 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 14:19:20,821 : INFO : logger : saved the model successfully
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:56,949 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:57,913 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:01:58,369 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:00,089 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,296 : INFO : logger : dropped the column successfully
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:02,449 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_15076/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:02:07,711 : INFO : logger : data splitted successfully
+2022-09-10 16:40:45,397 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:40:45,397 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:40:45,397 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:40:45,397 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 16:40:45,586 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:40:45,586 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:40:45,586 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:40:45,586 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 16:40:45,587 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:40:45,587 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:40:45,587 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:40:45,587 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 16:40:46,202 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,202 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,202 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,202 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,630 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,630 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,630 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,630 : INFO : logger : dropped the column successfully
+2022-09-10 16:40:46,676 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:40:46,676 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:40:46,676 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:40:46,676 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 16:40:48,474 : INFO : logger : data splitted successfully
+2022-09-10 16:40:48,474 : INFO : logger : data splitted successfully
+2022-09-10 16:40:48,474 : INFO : logger : data splitted successfully
+2022-09-10 16:40:48,474 : INFO : logger : data splitted successfully
+2022-09-10 16:54:24,575 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 16:54:24,575 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 16:54:24,575 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 16:54:24,575 : INFO : logger : trained the model with randomForest algorithm
+2022-09-10 16:54:40,042 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 16:54:40,042 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 16:54:40,042 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 16:54:40,042 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3826/3503233188.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/sklearn/utils/metaestimators.py", line 113, in <lambda>
+    out = lambda *args, **kwargs: self.fn(obj, *args, **kwargs)  # noqa
+TypeError: predict() takes 2 positional arguments but 3 were given
+2022-09-10 17:07:25,971 : INFO : logger : saved the model successfully
+2022-09-10 17:07:25,971 : INFO : logger : saved the model successfully
+2022-09-10 17:07:25,971 : INFO : logger : saved the model successfully
+2022-09-10 17:07:25,971 : INFO : logger : saved the model successfully
+2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
+2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
+2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
+2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
