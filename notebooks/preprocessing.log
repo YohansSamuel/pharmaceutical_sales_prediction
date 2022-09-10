@@ -2906,3 +2906,1997 @@ TypeError: predict() takes 2 positional arguments but 3 were given
 2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
 2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
 2022-09-10 17:30:39,514 : INFO : logger : Model loaded from 2022-09-08-23-17-35.pkl
+2022-09-10 18:21:03,732 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:21:03,732 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:21:03,732 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:21:03,732 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:21:03,891 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:21:03,891 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:21:03,891 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:21:03,891 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:21:03,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:21:03,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:21:03,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:21:03,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:21:04,282 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,282 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,282 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,282 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,768 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,768 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,768 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,768 : INFO : logger : dropped the column successfully
+2022-09-10 18:21:04,801 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3701/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:21:04,801 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3701/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:21:04,801 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3701/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:21:04,801 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_3701/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:21:06,728 : INFO : logger : data splitted successfully
+2022-09-10 18:21:06,728 : INFO : logger : data splitted successfully
+2022-09-10 18:21:06,728 : INFO : logger : data splitted successfully
+2022-09-10 18:21:06,728 : INFO : logger : data splitted successfully
+2022-09-10 18:28:45,463 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:28:45,463 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:28:45,463 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:28:45,463 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 18:28:45,823 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:28:45,823 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:28:45,823 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:28:45,823 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 18:28:45,824 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:28:45,824 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:28:45,824 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:28:45,824 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 18:28:46,361 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:46,361 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:46,361 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:46,361 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:47,002 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:47,002 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:47,002 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:47,002 : INFO : logger : dropped the column successfully
+2022-09-10 18:28:47,063 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:28:47,063 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:28:47,063 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:28:47,063 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 18:28:48,727 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 18:28:48,727 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 18:28:48,727 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 18:28:48,727 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 18:28:49,390 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 18:28:49,390 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 18:28:49,390 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 18:28:49,390 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 18:28:49,558 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 18:28:49,558 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 18:28:49,558 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 18:28:49,558 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:11:24,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:11:24,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:11:24,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:11:24,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:11:24,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:11:24,676 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:11:25,102 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:11:25,102 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:11:25,102 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:11:25,102 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:11:25,102 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:11:25,102 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:11:25,103 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:11:25,103 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:11:25,103 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:11:25,103 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:11:25,103 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:11:25,103 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:11:25,718 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:25,718 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:25,718 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:25,718 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:25,718 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:25,718 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,628 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,628 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,628 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,628 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,628 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,628 : INFO : logger : dropped the column successfully
+2022-09-10 19:11:26,688 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:11:26,688 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:11:26,688 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:11:26,688 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:11:26,688 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:11:26,688 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:11:27,925 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:11:27,925 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:11:27,925 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:11:27,925 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:11:27,925 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:11:27,925 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:11:28,566 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:11:28,566 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:11:28,566 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:11:28,566 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:11:28,566 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:11:28,566 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:11:28,802 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:11:28,802 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:11:28,802 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:11:28,802 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:11:28,802 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:11:28,802 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,778 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,890 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:17,892 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:19,363 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,453 : INFO : logger : dropped the column successfully
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:20,938 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,169 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,544 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:23,686 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:15:24,248 : ERROR : logger : Failed to save the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_5750/1541548232.py", line 5, in <cell line: 2>
+    pickle.dump(rf_model, open(rf_model_path, 'wb'))
+NameError: name 'rf_model' is not defined
+2022-09-10 19:30:58,944 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:30:58,944 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:30:58,944 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:30:58,944 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:30:59,238 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:30:59,238 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:30:59,238 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:30:59,238 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:30:59,240 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:30:59,240 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:30:59,240 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:30:59,240 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:30:59,955 : INFO : logger : dropped the column successfully
+2022-09-10 19:30:59,955 : INFO : logger : dropped the column successfully
+2022-09-10 19:30:59,955 : INFO : logger : dropped the column successfully
+2022-09-10 19:30:59,955 : INFO : logger : dropped the column successfully
+2022-09-10 19:31:01,349 : INFO : logger : dropped the column successfully
+2022-09-10 19:31:01,349 : INFO : logger : dropped the column successfully
+2022-09-10 19:31:01,349 : INFO : logger : dropped the column successfully
+2022-09-10 19:31:01,349 : INFO : logger : dropped the column successfully
+2022-09-10 19:31:01,401 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:31:01,401 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:31:01,401 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:31:01,401 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:31:02,646 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:31:02,646 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:31:02,646 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:31:02,646 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:31:02,928 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:31:02,928 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:31:02,928 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:31:02,928 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:31:03,022 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:31:03,022 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:31:03,022 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:31:03,022 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:41:09,922 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:41:09,922 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:41:09,922 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:41:09,922 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:41:09,922 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:41:09,922 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:41:11,146 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:41:11,146 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:41:11,146 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:41:11,146 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:41:11,146 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:41:11,146 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:41:11,148 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:41:11,148 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:41:11,148 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:41:11,148 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:41:11,148 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:41:11,148 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:41:14,742 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:14,742 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:14,742 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:14,742 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:14,742 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:14,742 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:16,166 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:16,166 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:16,166 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:16,166 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:16,166 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:16,166 : INFO : logger : dropped the column successfully
+2022-09-10 19:41:18,437 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:41:18,437 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:41:18,437 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:41:18,437 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:41:18,437 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:41:18,437 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:41:22,099 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:41:22,099 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:41:22,099 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:41:22,099 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:41:22,099 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:41:22,099 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:41:23,909 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:41:23,909 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:41:23,909 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:41:23,909 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:41:23,909 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:41:23,909 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:41:24,663 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:41:24,663 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:41:24,663 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:41:24,663 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:41:24,663 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:41:24,663 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_9575/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:44:04,918 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:44:04,918 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:44:04,918 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:44:04,918 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 19:44:05,061 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:44:05,061 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:44:05,061 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:44:05,061 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 19:44:05,061 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:44:05,061 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:44:05,061 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:44:05,061 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 19:44:05,454 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,454 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,454 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,454 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,852 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,852 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,852 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,852 : INFO : logger : dropped the column successfully
+2022-09-10 19:44:05,957 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:44:05,957 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:44:05,957 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:44:05,957 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 19:44:07,425 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:44:07,425 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:44:07,425 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:44:07,425 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 19:44:07,769 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:44:07,769 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:44:07,769 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:44:07,769 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 19:44:08,004 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:44:08,004 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:44:08,004 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 19:44:08,004 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 20:38:20,534 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 20:38:20,534 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 20:38:20,534 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 20:38:20,534 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 20:38:20,534 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 20:38:20,534 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 20:38:21,379 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 20:38:21,379 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 20:38:21,379 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 20:38:21,379 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 20:38:21,379 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 20:38:21,379 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 20:38:21,380 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 20:38:21,380 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 20:38:21,380 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 20:38:21,380 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 20:38:21,380 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 20:38:21,380 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 20:38:22,749 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:22,749 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:22,749 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:22,749 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:22,749 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:22,749 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,908 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,908 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,908 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,908 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,908 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,908 : INFO : logger : dropped the column successfully
+2022-09-10 20:38:23,968 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 20:38:23,968 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 20:38:23,968 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 20:38:23,968 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 20:38:23,968 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 20:38:23,968 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 20:38:25,224 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 20:38:25,224 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 20:38:25,224 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 20:38:25,224 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 20:38:25,224 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 20:38:25,224 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 20:38:25,791 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 20:38:25,791 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 20:38:25,791 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 20:38:25,791 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 20:38:25,791 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 20:38:25,791 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/3026338831.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 20:38:26,039 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 20:38:26,039 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 20:38:26,039 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 20:38:26,039 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 20:38:26,039 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 20:38:26,039 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_10942/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:20,743 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 21:08:20,743 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 21:08:20,743 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 21:08:20,743 : INFO : logger : file read as csv from ../data/cleaned_train.csv
+2022-09-10 21:08:21,345 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 21:08:21,345 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 21:08:21,345 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 21:08:21,345 : INFO : logger : file read as csv from ../data/cleaned_test.csv
+2022-09-10 21:08:21,346 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 21:08:21,346 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 21:08:21,346 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 21:08:21,346 : ERROR : logger : load data successfully
+NoneType: None
+2022-09-10 21:08:22,132 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:22,132 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:22,132 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:22,132 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:23,530 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:23,530 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:23,530 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:23,530 : INFO : logger : dropped the column successfully
+2022-09-10 21:08:23,624 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 21:08:23,624 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 21:08:23,624 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 21:08:23,624 : ERROR : logger : Exception occured in Date encoding!, 'Date'
+Traceback (most recent call last):
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3621, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/3690632396.py", line 6, in <cell line: 2>
+    dataset['Date'] = encoder.fit_transform(dataset['Date'])
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/frame.py", line 3505, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3623, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Date'
+2022-09-10 21:08:25,920 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 21:08:25,920 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 21:08:25,920 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 21:08:25,920 : ERROR : logger : Failed to load split the dataset
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/803729521.py", line 3, in <cell line: 1>
+    X = df_train.drop('Sales','Customers', axis=1)
+  File "/home/yohans/anaconda3/envs/sales_prediction/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+TypeError: drop() got multiple values for argument 'axis'
+2022-09-10 21:08:26,370 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:08:26,370 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:08:26,370 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:08:26,370 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:08:26,546 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,546 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,546 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,546 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/4277364278.py", line 2, in <cell line: 1>
+    y_predict= rf_model.predict(X_test, y_test)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,751 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/204374134.py", line 2, in <cell line: 1>
+    score = rf_model.score(X_train, y_train)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,751 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/204374134.py", line 2, in <cell line: 1>
+    score = rf_model.score(X_train, y_train)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,751 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/204374134.py", line 2, in <cell line: 1>
+    score = rf_model.score(X_train, y_train)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:08:26,751 : ERROR : logger : Failed to evaluate the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/204374134.py", line 2, in <cell line: 1>
+    score = rf_model.score(X_train, y_train)
+NameError: name 'rf_model' is not defined
+2022-09-10 21:15:45,636 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:15:45,636 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:15:45,636 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
+2022-09-10 21:15:45,636 : ERROR : logger : Failed to train the model
+Traceback (most recent call last):
+  File "/tmp/ipykernel_14947/2633308775.py", line 2, in <cell line: 1>
+    rf_model = pipeline.fit(X_train, y_train)
+NameError: name 'X_train' is not defined
